@@ -1,4 +1,4 @@
-🧠 Sosyal Medya Yorumlarından Duygu Analizi  
+# 🧠 Sosyal Medya Yorumlarından Duygu Analizi  
 Yapay Sinir Ağları Kullanılarak Youtube Yorumlarının Duygu Sınıflandırması
 
 Belirli bir sosyal medya platformundan (YouTube) toplanan kullanıcı yorumlarını analiz ederek, bu yorumların duygu durumlarını (olumlu, olumsuz, nötr) sınıflandıran bir yapay zeka projesidir.
@@ -7,7 +7,7 @@ Belirli bir sosyal medya platformundan (YouTube) toplanan kullanıcı yorumları
 
 ---
 
-✨ Özellikler
+## ✨ Özellikler
 
 🗃️ YouTube videolarından yorum çekme (Web Scraping – Selenium)  
 🧪 LSTM tabanlı derin öğrenme ile duygu analizi  
@@ -18,7 +18,7 @@ Belirli bir sosyal medya platformundan (YouTube) toplanan kullanıcı yorumları
 
 ---
 
-📦 Kullanılan Teknolojiler
+## 📦 Kullanılan Teknolojiler
 
 - 🐍 **Python** – Veri işleme, modelleme ve arayüz  
 - 🧠 **Keras & TensorFlow** – LSTM tabanlı duygu analizi modeli  
@@ -30,7 +30,7 @@ Belirli bir sosyal medya platformundan (YouTube) toplanan kullanıcı yorumları
 
 ---
 
-📈 Model Yapısı
+## 📈 Model Yapısı
 Gömme Katmanı (Word2Vec) – 300 boyutlu vektörler
 LSTM Katmanı – 128 nöron
 Dropout – 0.5 oranlı overfitting önleme
@@ -41,7 +41,7 @@ Dense Katman – ReLU aktivasyonu
 
 ---
 
-📊 Performans Sonuçları
+## 📊 Performans Sonuçları
 | Özellik          | Başlangıç Modeli | Geliştirilmiş Model |
 | ---------------- | ---------------- | ------------------- |
 | Eğitim Doğruluğu | %80              | %95                 |
@@ -51,7 +51,7 @@ Dense Katman – ReLU aktivasyonu
 
 ---
 
-🛠️ Kurulum ve Çalıştırma
+## 🛠️ Kurulum ve Çalıştırma
 
 1. Gerekli kütüphaneleri kurun:
    ```bash
@@ -62,4 +62,4 @@ Dense Katman – ReLU aktivasyonu
 
 ---
 
-🔧 Uygulama arayüzü ve işlevi görselleri için result_images dosyasını inceleyin!
+## 🔧 Uygulama arayüzü ve işlevi görselleri için result_images dosyasını inceleyin!

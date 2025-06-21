@@ -59,3 +59,7 @@ Dense Katman – ReLU aktivasyonu
 2. Python dosyasını çalıştırın:
    python web_scraping_arayüz.py
 3. Açılan pencerede YouTube video URL'sini girin ve yorumları analiz edin.
+
+---
+
+🔧 Uygulama arayüzü ve işlevi görselleri için result_images dosyasını inceleyin!
